@@ -86,7 +86,11 @@ VOICE-FIRST DESIGN
 
 The large central record control is Pocket’s primary action. Its label changes through permission, listening, transcribing, audio-only recording, finishing, and retry states. Typed capture remains directly below it as a private fallback.
 
-Pocket uses the selected option-A microphone: a centered 150px rounded-square liquid-glass tile with a custom white line microphone and subtle waveform. While recording, the waveform responds to the real microphone level. If Web Audio metering is unavailable, recording still works and the waveform falls back gracefully.
+Pocket uses the selected option-A microphone: a centered 150px clear liquid-glass tile with a custom white line microphone and subtle waveform. Its low-opacity navy tint, pale rim, layered reflections, and background blur avoid a solid plastic appearance. While recording, the waveform responds to the real microphone level. If Web Audio metering is unavailable, recording still works and the waveform falls back gracefully.
+
+Capture no longer repeats Thoughts, Today, and Shopping as large shortcut boxes. Pocket routes typed and spoken captures automatically, while the permanent bottom tabs remain available for opening each category.
+
+The small glass header monogram is a clear uppercase P for Pocket.
 
 Returning to Capture from Thoughts, Today, or Shopping never opens the keyboard or starts recording. Tap the microphone deliberately for voice, or tap inside the typed field when you want the keyboard.
 
