@@ -74,4 +74,10 @@ CATEGORY SHORTCUTS
 
 Start a typed or spoken capture with “Thought” to send it unmistakably to Thoughts. For example, “Thought: explore Japanese gardens” is saved as “Explore Japanese gardens”.
 
+“Thought” only acts as a routing command when it is the first meaningful word. A later use of the word does not trigger Thoughts. Buying phrases such as “buy more eggs”, “pick up groceries”, and “get some milk” route to Shopping before task/reminder rules are considered.
+
 Voice recordings linked to Today and Thoughts are stored privately on the device and remain playable beside their transcripts after reopening Pocket. Shopping and grocery captures are always clean text-only list items: Pocket immediately discards their voice audio and does not store or display a recording.
+
+VOICE-FIRST DESIGN
+
+The large central record control is Pocket’s primary action. Its label changes through permission, listening, transcribing, audio-only recording, finishing, and retry states. Typed capture remains directly below it as a private fallback.
