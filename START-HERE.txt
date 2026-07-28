@@ -86,9 +86,9 @@ VOICE-FIRST DESIGN
 
 The large central record control is Pocket’s primary action. Its label changes through permission, listening, transcribing, audio-only recording, finishing, and retry states. Typed capture remains directly below it as a private fallback.
 
-Pocket uses the selected Navy Aurora composition: a true deep-navy atmosphere with restrained cobalt/periwinkle aurora ribbons and soft light shafts, high-contrast white editorial type, extraordinarily clear reflective surfaces with silver-white multi-rim edges, an oversized transparent rounded-square microphone, a separate symmetrical ice-white waveform, a single elongated typed-capture bar, and a floating translucent pill navigation tray. The background remains visible through the microphone, cards, typed bar, and navigation.
+Pocket uses the selected Navy Aurora composition: a true deep-navy atmosphere with restrained cobalt/periwinkle aurora ribbons and soft light shafts, high-contrast white editorial type, extraordinarily clear reflective surfaces with silver-white multi-rim edges, and a floating translucent pill navigation tray. Capture uses the selected Option A Halo Dock: a compact centred circular clear-glass microphone inside a fine static concentric halo, followed immediately by the symmetrical ice-white waveform. The typing bar sits lower with reserved clearance above the fixed navigation. The background remains visible through the microphone, cards, typed bar, and navigation.
 
-The waveform keeps its tapered centre-weighted identity while its individual mirrored bars respond smoothly to real microphone loudness during recording. When idle, it uses a subdued gentle version of the same shape. If Web Audio metering is unavailable, recording still works and the waveform falls back gracefully.
+The microphone tile, rim, icon, and tapered waveform are completely still while idle, after stopping, and after a failure or retry state, so Pocket never looks as though it is listening before a deliberate tap. During an active recording, only the individual mirrored waveform bars move in response to real microphone loudness. If Web Audio metering is unavailable, recording still works and the waveform stays graceful and non-distracting.
 
 Capture no longer repeats Thoughts, Today, and Shopping as large shortcut boxes. Pocket routes typed and spoken captures automatically, while the permanent bottom tabs remain available for opening each category.
 
@@ -103,3 +103,7 @@ Badges show only new items created since you last opened Thoughts, Today, or Sho
 The same canonical outline icons are reused everywhere: microphone for Capture, thought bubble for Thoughts, calendar for Today, and bag for Shopping.
 
 Thoughts, Today, and Shopping each include a category-scoped Clear all action. Pocket shows a native confirmation naming the category before deletion. Confirming removes only that category, clears its unread count, and deletes its linked private audio; cancelling changes nothing.
+
+THOUGHTS AUDIO STRIP
+
+Thoughts with saved voice audio use the selected Audio Strip layout: the thought title, captured date, and edit menu lead the card, followed by a connected full-width glass playback strip with play/pause, visual progress, duration, scrubbing, and a discreet remove-audio action. Today and Shopping remain text-first lists, while older Today audio is still preserved where it already exists.
