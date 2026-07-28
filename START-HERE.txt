@@ -86,4 +86,10 @@ VOICE-FIRST DESIGN
 
 The large central record control is Pocket’s primary action. Its label changes through permission, listening, transcribing, audio-only recording, finishing, and retry states. Typed capture remains directly below it as a private fallback.
 
+Pocket uses the selected option-A microphone: a centered 150px rounded-square liquid-glass tile with a custom white line microphone and subtle waveform. While recording, the waveform responds to the real microphone level. If Web Audio metering is unavailable, recording still works and the waveform falls back gracefully.
+
 Returning to Capture from Thoughts, Today, or Shopping never opens the keyboard or starts recording. Tap the microphone deliberately for voice, or tap inside the typed field when you want the keyboard.
+
+BOTTOM NAVIGATION
+
+Badges show only new items created since you last opened Thoughts, Today, or Shopping. Opening a category marks it read immediately. Capture never has a badge. Existing items are treated as already read when this feature is first added, and unread counts are saved privately on the device.
