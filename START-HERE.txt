@@ -1,6 +1,10 @@
 POCKET — CLEAN GITHUB PAGES SETUP
 
-This folder is the complete finished website.
+THIS IS THE ONE PERMANENT POCKET SOURCE FOLDER.
+Use this same folder for the first upload and for all future Pocket updates.
+You can ignore any older output or update folders.
+
+This folder contains the latest complete finished website, including the corrected voice recorder.
 It needs no terminal, Cloudflare account, workflow, package installation, or build step.
 
 1. Go to github.com and sign in.
@@ -55,3 +59,11 @@ The repository contains only finished, visible static website files. There is no
 Because the repository is public, anyone can see these website files. Your personal thoughts, tasks, and shopping items remain in browser storage on your iPhone. They are never added to GitHub.
 
 To install Pocket on iPhone, open the published address in Safari, tap Share, choose Add to Home Screen, then tap Add.
+
+VOICE RECORDING
+
+Tap Record and allow microphone access. Pocket immediately confirms when it is requesting permission and when recording starts. Tap the same control again to stop, then use the audio player to hear the recording.
+
+Where browser speech recognition is supported, Pocket transcribes and categorises the words once. The saved task includes its own audio player beside the transcript. That recording is stored privately in the browser on the device, remains available after reopening Pocket, and can be removed without deleting the task.
+
+If the device cannot transcribe, Pocket says so clearly and does not create a task automatically. The recording remains available for playback during that browser session and is never uploaded. Type the words into the capture box when you want to categorise them.
