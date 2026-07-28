@@ -1,0 +1,44 @@
+POCKET — VOICE RECORDING UPDATE
+
+This update fixes the microphone button.
+It keeps Pocket as a static GitHub Pages website with no server and no external audio upload.
+
+UPLOAD THE UPDATE
+
+1. Open your existing Pocket repository on GitHub.
+
+2. Choose Add file, then Upload files.
+
+3. Open this pocket-voice-update folder in Finder.
+
+4. Select both files INSIDE the folder:
+   index.html
+   UPDATE-POCKET.txt
+
+5. Drag both files onto GitHub’s upload page.
+   Do not drag the outer pocket-voice-update folder.
+
+6. GitHub will say that index.html already exists and will be replaced.
+   This is expected.
+
+7. Enter a message such as “Fix Pocket voice recording”.
+
+8. Choose Commit changes.
+
+9. Wait a few minutes for GitHub Pages to refresh, then reopen your Pocket public link.
+
+10. If the old version still appears on iPhone, close Pocket completely and reopen it.
+    If needed, refresh the page once in Safari before opening it again from the Home Screen.
+
+HOW VOICE NOW WORKS
+
+- Tap Record. Pocket immediately says it is requesting microphone permission.
+- Allow microphone access when Safari asks.
+- Pocket shows a clear Recording message.
+- Tap the same button again to stop.
+- Pocket shows an audio player so you can play back the recording.
+- The recording stays only in this browser session and is never uploaded.
+- If the browser supports live speech recognition, Pocket transcribes and categorises the words.
+- If the device cannot transcribe, Pocket clearly says so. The audio is still available for playback, and you can type the words into the capture box.
+
+Automatic transcription is a separate browser feature. Recording can work on an iPhone even when automatic transcription is unavailable. Reliable transcription on unsupported devices would require a future external transcription service, which this private static version does not use.
