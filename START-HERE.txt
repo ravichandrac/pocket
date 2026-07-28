@@ -81,3 +81,5 @@ Voice recordings linked to Today and Thoughts are stored privately on the device
 VOICE-FIRST DESIGN
 
 The large central record control is Pocket’s primary action. Its label changes through permission, listening, transcribing, audio-only recording, finishing, and retry states. Typed capture remains directly below it as a private fallback.
+
+Returning to Capture from Thoughts, Today, or Shopping never opens the keyboard or starts recording. Tap the microphone deliberately for voice, or tap inside the typed field when you want the keyboard.
