@@ -86,7 +86,7 @@ VOICE-FIRST DESIGN
 
 The large central record control is Pocket’s primary action. Its label changes through permission, listening, transcribing, audio-only recording, finishing, and retry states. Typed capture remains directly below it as a private fallback.
 
-Pocket’s Capture screen uses the selected icy blue-hour composition: an airy room-like misty backdrop, high-contrast white serif hero, an oversized extremely clear rounded-square glass microphone, a separate symmetrical ice-white waveform, a single elongated typed-capture bar, and a floating translucent pill navigation tray.
+Pocket uses the selected Navy Aurora composition: a true deep-navy atmosphere with restrained cobalt/periwinkle aurora ribbons and soft light shafts, high-contrast white editorial type, extraordinarily clear reflective surfaces with silver-white multi-rim edges, an oversized transparent rounded-square microphone, a separate symmetrical ice-white waveform, a single elongated typed-capture bar, and a floating translucent pill navigation tray. The background remains visible through the microphone, cards, typed bar, and navigation.
 
 The waveform keeps its tapered centre-weighted identity while its individual mirrored bars respond smoothly to real microphone loudness during recording. When idle, it uses a subdued gentle version of the same shape. If Web Audio metering is unavailable, recording still works and the waveform falls back gracefully.
 
@@ -99,3 +99,7 @@ Returning to Capture from Thoughts, Today, or Shopping never opens the keyboard 
 BOTTOM NAVIGATION
 
 Badges show only new items created since you last opened Thoughts, Today, or Shopping. Opening a category marks it read immediately. Capture never has a badge. Existing items are treated as already read when this feature is first added, and unread counts are saved privately on the device.
+
+The same canonical outline icons are reused everywhere: microphone for Capture, thought bubble for Thoughts, calendar for Today, and bag for Shopping.
+
+Thoughts, Today, and Shopping each include a category-scoped Clear all action. Pocket shows a native confirmation naming the category before deletion. Confirming removes only that category, clears its unread count, and deletes its linked private audio; cancelling changes nothing.
