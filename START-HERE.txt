@@ -67,3 +67,11 @@ Tap Record and allow microphone access. Pocket immediately confirms when it is r
 Where browser speech recognition is supported, Pocket transcribes and categorises the words once. The saved task includes its own audio player beside the transcript. That recording is stored privately in the browser on the device, remains available after reopening Pocket, and can be removed without deleting the task.
 
 If the device cannot transcribe, Pocket says so clearly and does not create a task automatically. The recording remains available for playback during that browser session and is never uploaded. Type the words into the capture box when you want to categorise them.
+
+Pocket waits briefly for the browser’s final words after you tap stop; partial words are never guessed into a task. If browser transcription pauses unexpectedly, Pocket makes one bounded restart attempt while recording continues. Speech transcription support can still vary by browser, connection, and iOS version, so use Retry or typed capture when Pocket reports that no final transcript was returned.
+
+CATEGORY SHORTCUTS
+
+Start a typed or spoken capture with “Thought” to send it unmistakably to Thoughts. For example, “Thought: explore Japanese gardens” is saved as “Explore Japanese gardens”.
+
+Voice recordings linked to Today and Thoughts are stored privately on the device and remain playable beside their transcripts after reopening Pocket. Shopping and grocery captures are always clean text-only list items: Pocket immediately discards their voice audio and does not store or display a recording.
