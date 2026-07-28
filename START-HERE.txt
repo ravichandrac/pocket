@@ -68,7 +68,7 @@ Where browser speech recognition is supported, Pocket transcribes and categorise
 
 If the device cannot transcribe, Pocket says so clearly and does not create a task automatically. The recording remains available for playback during that browser session and is never uploaded. Type the words into the capture box when you want to categorise them.
 
-When you tap stop, Pocket shows “Saving…” and uses the current recording session’s final transcript. If the browser never marks the words final, Pocket uses the latest meaningful live transcript after a short 450 ms stabilization window instead of losing the capture. If browser transcription pauses unexpectedly, Pocket makes one bounded restart attempt while recording continues. Speech transcription support can still vary by browser, connection, and iOS version, so use Retry or typed capture only when Pocket reports that no words were returned at all.
+When you tap stop, Pocket shows “Saving…” and briefly keeps speech recognition alive so the browser can deliver words it has already heard. It then uses the current session’s final transcript or, if the browser never marks it final, the latest meaningful live transcript. The whole handoff is bounded to well under one second. If browser transcription pauses unexpectedly, Pocket makes one bounded restart attempt while recording continues. Speech transcription support can still vary by browser, connection, and iOS version, so use Retry or typed capture only when Pocket reports that no words were returned at all.
 
 Every recording starts with a fresh session. Late speech events from an earlier recording are ignored, so a first “Thought, read a book later” capture cannot affect a following “buy garam masala” capture.
 
