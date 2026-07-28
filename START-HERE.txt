@@ -1,0 +1,57 @@
+POCKET — CLEAN GITHUB PAGES SETUP
+
+This folder is the complete finished website.
+It needs no terminal, Cloudflare account, workflow, package installation, or build step.
+
+1. Go to github.com and sign in.
+
+2. Choose the + menu, then New repository.
+
+3. Give the repository a simple name, such as pocket.
+
+4. Set the repository to Public.
+   GitHub Free Pages requires a public repository.
+
+5. Leave the README, .gitignore, and license options turned off.
+
+6. Choose Create repository.
+
+7. On the empty repository page, choose “uploading an existing file”.
+   If that link is not visible, choose Add file, then Upload files.
+
+8. Open this pocket-github-clean-start folder in Finder.
+
+9. Select ALL five files INSIDE the folder:
+   favicon.svg
+   index.html
+   manifest.webmanifest
+   START-HERE.txt
+   sw.js
+
+10. Drag those five files onto GitHub’s upload page.
+    Do not drag the outer pocket-github-clean-start folder.
+
+11. Wait until GitHub lists all five files.
+
+12. Enter a message such as “Add Pocket website”, then choose Commit changes.
+
+13. In the repository, open Settings, then Pages.
+
+14. Under Build and deployment choose:
+    Source: Deploy from a branch
+    Branch: main
+    Folder: /(root)
+
+15. Choose Save.
+
+16. Wait a few minutes, then refresh Settings > Pages.
+    Open the website address shown there.
+
+The address will usually look like:
+https://YOUR-NAME.github.io/pocket/
+
+The repository contains only finished, visible static website files. There is no server.
+
+Because the repository is public, anyone can see these website files. Your personal thoughts, tasks, and shopping items remain in browser storage on your iPhone. They are never added to GitHub.
+
+To install Pocket on iPhone, open the published address in Safari, tap Share, choose Add to Home Screen, then tap Add.
