@@ -80,7 +80,7 @@ Start a typed or spoken capture with “Thought” to send it unmistakably to Th
 
 Pocket also recognises common grocery items and spices without requiring a perfect command verb. “Buy garam masala”, “by garam masala”, and simply “garam masala” all become the clean Shopping item “Garam masala”. The speech ambiguity “by” is treated as “buy” only beside a recognised grocery item.
 
-Voice recordings linked to Today and Thoughts are stored privately on the device and remain playable beside their transcripts after reopening Pocket. Shopping and grocery captures are always clean text-only list items: Pocket immediately discards their voice audio and does not store or display a recording.
+Voice recordings linked to Thoughts are stored privately on the device and remain playable beside their transcripts after reopening Pocket. New Today actions and Shopping captures save only their clean categorised text: Pocket immediately discards their temporary voice audio and does not write or display a new recording. Existing Today items that already have an audio attachment are preserved and keep their playback/removal controls.
 
 VOICE-FIRST DESIGN
 
