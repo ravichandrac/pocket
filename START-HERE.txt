@@ -1,7 +1,7 @@
-RAVI’S POCKETBOOK — CLEAN GITHUB PAGES SETUP
+RAVI’S POCKET-BOOK — CLEAN GITHUB PAGES SETUP
 
-THIS IS THE ONE PERMANENT RAVI’S POCKETBOOK SOURCE FOLDER.
-Use this same folder for the first upload and for all future RAVI’S POCKETBOOK updates.
+THIS IS THE ONE PERMANENT RAVI’S POCKET-BOOK SOURCE FOLDER.
+Use this same folder for the first upload and for all future RAVI’S POCKET-BOOK updates.
 You can ignore any older output or update folders.
 
 This folder contains the latest complete finished website, including the corrected voice recorder.
@@ -37,7 +37,7 @@ It needs no terminal, Cloudflare account, workflow, package installation, or bui
 
 11. Wait until GitHub lists all five files.
 
-12. Enter a message such as “Update RAVI’S POCKETBOOK”, then choose Commit changes.
+12. Enter a message such as “Update RAVI’S POCKET-BOOK”, then choose Commit changes.
 
 13. In the repository, open Settings, then Pages.
 
@@ -58,17 +58,17 @@ The repository contains only finished, visible static website files. There is no
 
 Because the repository is public, anyone can see these website files. Your personal thoughts, tasks, and shopping items remain in browser storage on your iPhone. They are never added to GitHub.
 
-To install RAVI’S POCKETBOOK on iPhone, open the published address in Safari, tap Share, choose Add to Home Screen, then tap Add.
+To install RAVI’S POCKET-BOOK on iPhone, open the published address in Safari, tap Share, choose Add to Home Screen, then tap Add.
 
 VOICE RECORDING
 
-Tap Record and allow microphone access. RAVI’S POCKETBOOK immediately confirms when it is requesting permission and when recording starts. Tap the same control again to stop, then use the audio player to hear the recording.
+Tap Record and allow microphone access. RAVI’S POCKET-BOOK immediately confirms when it is requesting permission and when recording starts. Tap the same control again to stop, then use the audio player to hear the recording.
 
-Where browser speech recognition is supported, RAVI’S POCKETBOOK transcribes and categorises the words once. The saved task includes its own audio player beside the transcript. That recording is stored privately in the browser on the device, remains available after reopening RAVI’S POCKETBOOK, and can be removed without deleting the task.
+Where browser speech recognition is supported, RAVI’S POCKET-BOOK transcribes and categorises the words once. The saved task includes its own audio player beside the transcript. That recording is stored privately in the browser on the device, remains available after reopening RAVI’S POCKET-BOOK, and can be removed without deleting the task.
 
-If the device cannot transcribe, RAVI’S POCKETBOOK says so clearly and does not create a task automatically. The recording remains available for playback during that browser session and is never uploaded. Type the words into the capture box when you want to categorise them.
+If the device cannot transcribe, RAVI’S POCKET-BOOK says so clearly and does not create a task automatically. The recording remains available for playback during that browser session and is never uploaded. Type the words into the capture box when you want to categorise them.
 
-When you tap stop, RAVI’S POCKETBOOK shows “Saving…” and briefly keeps speech recognition alive so the browser can deliver words it has already heard. It then uses the current session’s final transcript or, if the browser never marks it final, the latest meaningful live transcript. The whole handoff is bounded to well under one second. If browser transcription pauses unexpectedly, RAVI’S POCKETBOOK makes one bounded restart attempt while recording continues. Speech transcription support can still vary by browser, connection, and iOS version, so use Retry or typed capture only when RAVI’S POCKETBOOK reports that no words were returned at all.
+When you tap stop, RAVI’S POCKET-BOOK shows “Saving…” and briefly keeps speech recognition alive so the browser can deliver words it has already heard. It then uses the current session’s final transcript or, if the browser never marks it final, the latest meaningful live transcript. The whole handoff is bounded to well under one second. If browser transcription pauses unexpectedly, RAVI’S POCKET-BOOK makes one bounded restart attempt while recording continues. Speech transcription support can still vary by browser, connection, and iOS version, so use Retry or typed capture only when RAVI’S POCKET-BOOK reports that no words were returned at all.
 
 Every recording starts with a fresh session. Late speech events from an earlier recording are ignored, so a first “Thought, read a book later” capture cannot affect a following “buy garam masala” capture.
 
@@ -78,27 +78,27 @@ Start a typed or spoken capture with “Thought” to send it unmistakably to Th
 
 “Thought” only acts as a routing command when it is the first meaningful word. A later use of the word does not trigger Thoughts. Buying phrases such as “buy more eggs”, “pick up groceries”, and “get some milk” route to Shopping before task/reminder rules are considered.
 
-RAVI’S POCKETBOOK also recognises common grocery items and spices without requiring a perfect command verb. “Buy garam masala”, “by garam masala”, and simply “garam masala” all become the clean Shopping item “Garam masala”. The speech ambiguity “by” is treated as “buy” only beside a recognised grocery item.
+RAVI’S POCKET-BOOK also recognises common grocery items and spices without requiring a perfect command verb. “Buy garam masala”, “by garam masala”, and simply “garam masala” all become the clean Shopping item “Garam masala”. The speech ambiguity “by” is treated as “buy” only beside a recognised grocery item.
 
-Voice recordings linked to Thoughts are stored privately on the device and remain playable beside their transcripts after reopening RAVI’S POCKETBOOK. New Today actions and Shopping captures save only their clean categorised text: RAVI’S POCKETBOOK immediately discards their temporary voice audio and does not write or display a new recording. Existing Today items that already have an audio attachment are preserved and keep their playback/removal controls.
+Voice recordings linked to Thoughts are stored privately on the device and remain playable beside their transcripts after reopening RAVI’S POCKET-BOOK. New Today actions and Shopping captures save only their clean categorised text: RAVI’S POCKET-BOOK immediately discards their temporary voice audio and does not write or display a new recording. Existing Today items that already have an audio attachment are preserved and keep their playback/removal controls.
 
 VOICE-FIRST DESIGN
 
-The large central record control is RAVI’S POCKETBOOK’s primary action. Its label changes through permission, listening, transcribing, audio-only recording, finishing, and retry states. Typed capture remains directly below it as a private fallback.
+The large central record control is RAVI’S POCKET-BOOK’s primary action. Its label changes through permission, listening, transcribing, audio-only recording, finishing, and retry states. Typed capture remains directly below it as a private fallback.
 
-RAVI’S POCKETBOOK uses a deeper midnight Navy Aurora composition: a strong inky-navy atmosphere with restrained dark cobalt/periwinkle aurora ribbons and soft light shafts, high-contrast white editorial type, extraordinarily clear reflective surfaces with silver-white multi-rim edges, and a floating translucent pill navigation tray. Capture uses the selected Option A Halo Dock: the existing compact centred circular clear-glass control and fine static concentric halo now hold a larger translucent icy-glass microphone glyph with a silver-white edge and inner reflection. The symmetrical ice-white waveform sits below with more intentional breathing room. The typing bar retains reserved clearance above the fixed navigation. The background remains visible through the microphone, cards, typed bar, and navigation.
+RAVI’S POCKET-BOOK uses a deeper midnight Navy Aurora composition: a strong inky-navy atmosphere with restrained dark cobalt/periwinkle aurora ribbons and soft light shafts, high-contrast white editorial type, extraordinarily clear reflective surfaces with silver-white multi-rim edges, and a floating translucent pill navigation tray. Capture uses the selected Option A Halo Dock: the existing compact centred circular clear-glass control and fine static concentric halo now hold a larger translucent icy-glass microphone glyph with a silver-white edge and inner reflection. The symmetrical ice-white waveform sits below with more intentional breathing room. The typing bar retains reserved clearance above the fixed navigation. The background remains visible through the microphone, cards, typed bar, and navigation.
 
 After a successful save, Capture keeps all temporary feedback together for exactly three seconds: the categorisation card, success status, transcript/session text, preview playback, and result-specific edit control then clear as one guarded lifecycle. A new save replaces it and restarts that timer. This cleanup never removes the saved item from Thoughts, Today, or Shopping, and durable Thoughts audio remains linked to its saved item.
 
-Save notifications appear in a compact accessible glass banner in normal flow directly below RAVI’S POCKETBOOK’s header, never behind the bottom navigation. Successful “Saved to…” and “Voice captured as…” messages dismiss after three seconds; errors and recording guidance remain available until replaced or dismissed.
+Save notifications appear in a compact accessible glass banner in normal flow directly below RAVI’S POCKET-BOOK’s header, never behind the bottom navigation. Successful “Saved to…” and “Voice captured as…” messages dismiss after three seconds; errors and recording guidance remain available until replaced or dismissed.
 
 On Capture, a successful save uses one compact in-flow confirmation block above the typed-capture field. The category, captured transcript, and result Edit action live together there for three seconds, physically pushing the typed field rather than appearing after it or behind the fixed navigation. Session playback for a genuine no-transcript failure uses that same safe above-field location. The Capture container reserves navigation and iPhone safe-area space at its bottom.
 
-The microphone tile, rim, icon, and tapered waveform are completely still while idle, after stopping, and after a failure or retry state, so RAVI’S POCKETBOOK never looks as though it is listening before a deliberate tap. During an active recording, only the individual mirrored waveform bars move in response to real microphone loudness. If Web Audio metering is unavailable, recording still works and the waveform stays graceful and non-distracting.
+The microphone tile, rim, icon, and tapered waveform are completely still while idle, after stopping, and after a failure or retry state, so RAVI’S POCKET-BOOK never looks as though it is listening before a deliberate tap. During an active recording, only the individual mirrored waveform bars move in response to real microphone loudness. If Web Audio metering is unavailable, recording still works and the waveform stays graceful and non-distracting.
 
-Capture no longer repeats Thoughts, Today, and Shopping as large shortcut boxes. RAVI’S POCKETBOOK routes typed and spoken captures automatically, while the permanent bottom tabs remain available for opening each category.
+Capture no longer repeats Thoughts, Today, and Shopping as large shortcut boxes. RAVI’S POCKET-BOOK routes typed and spoken captures automatically, while the permanent bottom tabs remain available for opening each category.
 
-The small glass header monogram is a refined uppercase R for RAVI’S POCKETBOOK.
+The small glass header monogram is a refined uppercase R for RAVI’S POCKET-BOOK.
 
 Returning to Capture from Thoughts, Today, or Shopping never opens the keyboard or starts recording. Tap the microphone deliberately for voice, or tap inside the typed field when you want the keyboard.
 
@@ -108,7 +108,7 @@ Badges show only new items created since you last opened Thoughts, Today, or Sho
 
 The same canonical outline icons are reused everywhere: microphone for Capture, thought bubble for Thoughts, calendar for Today, and bag for Shopping.
 
-Thoughts, Today, and Shopping each include a category-scoped Clear all action. RAVI’S POCKETBOOK shows a native confirmation naming the category before deletion. Confirming removes only that category, clears its unread count, and deletes its linked private audio; cancelling changes nothing.
+Thoughts, Today, and Shopping each include a category-scoped Clear all action. RAVI’S POCKET-BOOK shows a native confirmation naming the category before deletion. Confirming removes only that category, clears its unread count, and deletes its linked private audio; cancelling changes nothing.
 
 THOUGHTS AUDIO STRIP
 
