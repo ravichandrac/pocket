@@ -1,4 +1,4 @@
-const CACHE = "pocket-shell-v13";
+const CACHE = "pocket-shell-v14";
 const APP_ROOT = new URL("./", self.location).pathname;
 const SHELL = [APP_ROOT, `${APP_ROOT}manifest.webmanifest`, `${APP_ROOT}favicon.svg`];
 
