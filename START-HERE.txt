@@ -68,13 +68,17 @@ Where browser speech recognition is supported, Pocket transcribes and categorise
 
 If the device cannot transcribe, Pocket says so clearly and does not create a task automatically. The recording remains available for playback during that browser session and is never uploaded. Type the words into the capture box when you want to categorise them.
 
-Pocket waits briefly for the browser’s final words after you tap stop; partial words are never guessed into a task. If browser transcription pauses unexpectedly, Pocket makes one bounded restart attempt while recording continues. Speech transcription support can still vary by browser, connection, and iOS version, so use Retry or typed capture when Pocket reports that no final transcript was returned.
+When you tap stop, Pocket shows “Saving…” and uses the current recording session’s final transcript. If the browser never marks the words final, Pocket uses the latest meaningful live transcript after a short 450 ms stabilization window instead of losing the capture. If browser transcription pauses unexpectedly, Pocket makes one bounded restart attempt while recording continues. Speech transcription support can still vary by browser, connection, and iOS version, so use Retry or typed capture only when Pocket reports that no words were returned at all.
+
+Every recording starts with a fresh session. Late speech events from an earlier recording are ignored, so a first “Thought, read a book later” capture cannot affect a following “buy garam masala” capture.
 
 CATEGORY SHORTCUTS
 
 Start a typed or spoken capture with “Thought” to send it unmistakably to Thoughts. For example, “Thought: explore Japanese gardens” is saved as “Explore Japanese gardens”.
 
 “Thought” only acts as a routing command when it is the first meaningful word. A later use of the word does not trigger Thoughts. Buying phrases such as “buy more eggs”, “pick up groceries”, and “get some milk” route to Shopping before task/reminder rules are considered.
+
+Pocket also recognises common grocery items and spices without requiring a perfect command verb. “Buy garam masala”, “by garam masala”, and simply “garam masala” all become the clean Shopping item “Garam masala”. The speech ambiguity “by” is treated as “buy” only beside a recognised grocery item.
 
 Voice recordings linked to Today and Thoughts are stored privately on the device and remain playable beside their transcripts after reopening Pocket. Shopping and grocery captures are always clean text-only list items: Pocket immediately discards their voice audio and does not store or display a recording.
 
