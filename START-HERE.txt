@@ -92,6 +92,8 @@ After a successful save, Capture keeps all temporary feedback together for exact
 
 Save notifications appear in a compact accessible glass banner in normal flow directly below Pocket’s header, never behind the bottom navigation. Successful “Saved to…” and “Voice captured as…” messages dismiss after three seconds; errors and recording guidance remain available until replaced or dismissed.
 
+On Capture, a successful save uses one compact in-flow confirmation block above the typed-capture field. The category, captured transcript, and result Edit action live together there for three seconds, physically pushing the typed field rather than appearing after it or behind the fixed navigation. Session playback for a genuine no-transcript failure uses that same safe above-field location. The Capture container reserves navigation and iPhone safe-area space at its bottom.
+
 The microphone tile, rim, icon, and tapered waveform are completely still while idle, after stopping, and after a failure or retry state, so Pocket never looks as though it is listening before a deliberate tap. During an active recording, only the individual mirrored waveform bars move in response to real microphone loudness. If Web Audio metering is unavailable, recording still works and the waveform stays graceful and non-distracting.
 
 Capture no longer repeats Thoughts, Today, and Shopping as large shortcut boxes. Pocket routes typed and spoken captures automatically, while the permanent bottom tabs remain available for opening each category.
